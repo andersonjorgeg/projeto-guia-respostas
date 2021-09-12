@@ -1,3 +1,8 @@
 body {
   background-color: #dce4e9;
 }
+
+.resposta {
+  font-size: 2rem;
+  font-weight: 600;
+}
