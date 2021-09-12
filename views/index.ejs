@@ -13,7 +13,9 @@
               <h3><%= pergunta.titulo %></>
             </div>
             <div class="card-footer">
-              <button type="button" class="btn btn-primary">responder</button>
+              <a href="/pergunta/<%= pergunta.id %>">
+                <button type="button" class="btn btn-primary">responder</button>
+              </a>
             </div>
           </div>
         <% }) %>
